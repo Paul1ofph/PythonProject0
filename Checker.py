@@ -3,7 +3,7 @@ password = input("Enter password: ")
 has_uppercase = False
 has_number = False
 
-if len(password) >= 8:
+While len(password) >= 8:
     for c in password:
         if c.isupper():
             has_uppercase = True
